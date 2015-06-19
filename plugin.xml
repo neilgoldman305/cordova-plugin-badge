@@ -9,7 +9,7 @@
 
     <description>Cordova plugin to access and modify the badge number of the app icon</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-badge.git</repo>
+    <repo>https://github.com/neilgoldman305/cordova-plugin-badge</repo>
 
     <keywords>appplant, badge</keywords>
 
@@ -39,7 +39,7 @@
     <!-- ios -->
     <platform name="ios">
 
-        <dependency id="de.appplant.cordova.common.registerusernotificationsettings" />
+        <dependency id="de.appplant.cordova.common.registerusernotificationsettings" url="https://github.com/neilgoldman305/cordova-common-registerusernotificationsettings" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="Badge">
